@@ -1,11 +1,120 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0xa0f06b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0xb47bf60" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xa0f06b0" />
-  <item nodeId="node-0xa0f06b0">
+  <activeNode nodeId="node-0x1b33690" />
+  <item nodeId="node-0xb47bf60">
     <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+You wake up in the hangar bay aside an ammunition crate containing ammunition for the laser cannons of hyperion class attack fighters scattered throughout the hangar. Your body armor, normally gray, is stained with some sort of green liquid near your torso. Your helmet is missing. Your first task should be to attempt to find your helmet.
+
+Dauntless
+An Interactive Fiction by Jake Dohrn
+Release 1 / Serial number 140223 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+Hangar bay
+A launching bay for attack fighters and gunships. On either side of the hangar are large openings for ships to launch from which are now closed by armored blast doors. A magnetic field normally covers these openings and keeps oxygen and other gaseous substances in the hanger but allows ships to pass through safely and easily. Only an emergency on the ship would cause the blast doors to close in the hangar. To your east is the engine room.
+
+&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="0">NO</temporary>
+    <temporary score="8">NO</temporary>
+    <children>
+      <child nodeId="node-0xb47bfb0" />
+      <child nodeId="node-0x1b4e180" />
+      <child nodeId="node-0x1bea180" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bea180">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Engine room
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b5bb90" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b5bb90">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Hangar bay
+A launching bay for attack fighters and gunships. On either side of the hangar are large openings for ships to launch from which are now closed by armored blast doors. A magnetic field normally covers these openings and keeps oxygen and other gaseous substances in the hanger but allows ships to pass through safely and easily. Only an emergency on the ship would cause the blast doors to close in the hangar. To your east is the engine room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0xe971e90" />
+    </children>
+  </item>
+  <item nodeId="node-0xe971e90">
+    <command xml:space="preserve">x attack fighters</command>
+    <result xml:space="preserve">Hyperion A-3 Nimbus class attack fighters. Max acceleration of 4,700 G. Armed with twin laser cannons and proton bombs which pack a hell of a punch in any cruisers&apos;s shields.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0x980e1f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x980e1f0">
+    <command xml:space="preserve">x gunships</command>
+    <result xml:space="preserve">HAATs or High Altitude Assault Transports are armed with air-air rockets, anti-personnel laser cannons and composite-beam laser cannons. They&apos;re used for planet reconnaissance and boarding enemy cruisers, carriers and capital ships.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0xe66f3d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe66f3d0">
+    <command xml:space="preserve">x HAATs</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b33690" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b33690">
+    <command xml:space="preserve">x blast doors</command>
+    <result xml:space="preserve">Large metal doors used to protect exposed openings such as hangars and airlocks. Nothing interesting about large metal doors.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b4e180">
+    <command xml:space="preserve">x attack fighters</command>
+    <result xml:space="preserve">Hyperion A-3 Nimbus class attack fighters. Max acceleration of 4,700 G. Armed with twin laser cannons and proton bombs which pack a hell of a punch in any cruisers&apos;s shields.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1">YES</temporary>
+  </item>
+  <item nodeId="node-0xb47bfb0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1">YES</temporary>
   </item>
 </Skein>
